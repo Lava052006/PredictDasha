@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+:root {
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #1e293b;
+  background-color: #f8fafc;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+@theme {
+  --color-enterprise-50: #f8fafc;
+  --color-enterprise-100: #f1f5f9;
+  --color-enterprise-200: #e2e8f0;
+  --color-enterprise-300: #cbd5e1;
+  --color-enterprise-400: #94a3b8;
+  --color-enterprise-500: #64748b;
+  --color-enterprise-600: #475569;
+  --color-enterprise-700: #334155;
+  --color-enterprise-800: #1e293b;
+  --color-enterprise-900: #0f172a;
+
+  --color-accent-success: #22c55e;
+  --color-accent-danger: #ef4444;
+  --color-accent-brand: #3b82f6;
+
+  --shadow-soft: 0 4px 20px -2px rgba(0, 0, 0, 0.05);
+  --shadow-enterprise: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+
+  --radius-enterprise: 0.5rem;
+}
+
+@layer base {
+  body {
+    @apply bg-enterprise-50 text-enterprise-900;
+  }
+}
