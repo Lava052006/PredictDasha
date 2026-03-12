@@ -240,6 +240,6 @@ Please follow conventional commit messages and ensure any new backend routes are
 
 <div align="center">
 
-Built with ❤️ by **Darsh Borse**
+Built with ❤️ by **Lavanya Borse**
 
 </div>
