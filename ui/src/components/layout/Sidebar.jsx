@@ -28,8 +28,8 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
         >
             <div className="p-4 flex items-center justify-between border-b border-enterprise-100">
                 <div className={`flex items-center gap-2 overflow-hidden transition-opacity duration-300 ${isOpen ? 'opacity-100' : 'opacity-0'}`}>
-                    <div className="w-8 h-8 bg-accent-brand rounded-lg flex items-center justify-center text-white font-bold">M</div>
-                    <span className="font-bold text-enterprise-800 whitespace-nowrap">Marketing AI</span>
+                    <div className="w-8 h-8 bg-accent-brand rounded-lg flex items-center justify-center text-white font-bold">P</div>
+                    <span className="font-bold text-enterprise-800 whitespace-nowrap">PredictDasha</span>
                 </div>
                 <button
                     onClick={toggleSidebar}
