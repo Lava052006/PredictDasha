@@ -1,0 +1,10 @@
+Importing api.endpoints...
+Error occurred:
+Traceback (most recent call last):
+  File "C:\Users\DarshBorse\Scikit\kpi\backend\debug_endpoints2.py", line 7, in <module>
+    import api.endpoints
+  File "C:\Users\DarshBorse\Scikit\kpi\backend\api\endpoints.py", line 3, in <module>
+    from models.schemas import (
+    ...<5 lines>...
+    )
+ImportError: cannot import name 'ForecastResponse' from 'models.schemas' (C:\Users\DarshBorse\Scikit\kpi\backend\models\schemas.py)
